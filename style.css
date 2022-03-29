@@ -157,9 +157,9 @@ body{
 	display: flex;
 }
 .pre-footer{
-	width: 1400;
-	margin: 350px 250px;
 	position: relative;
+	margin-top: 300px;
+	margin-bottom: 200px;
 }
 .footer-title{
 	color: #83888F;
