@@ -79,6 +79,7 @@ body{
 	height: 550px;
 	border-radius: 15px;
 	background-image: url('./img/hero-bg.png');
+	background-size: cover;
 }
 .site-hero__card {
 	width: 60%;
