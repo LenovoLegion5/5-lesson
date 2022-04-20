@@ -7,33 +7,118 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" 
 	referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css">
-	<title>16-lesson HW</title>
+	<title>18-lesson HW</title>
 </head>
 <body>
-	<header class="header">
+	<header>
         <div class="container">
             <nav class="nav">
+                <!-- TODO:modal menu for mobiles -->
                 <a class="logo" href="#"><img class="logo-img" src="/img/coffee-logo.png"></img></a>
                 <ul class="nav__list">
                     <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Create your plan</a></li>
                 </ul>
+                <label>
+                    <input type="checkbox">
+                    <i class="fas fa-times"></i>
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav__submenu">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Create your plan</a></li>
+                </ul>
             </nav>
-            <main class="header__main">
+            <main class="header__main ">
                 <h1 class="main__title">Great coffee
                     made simple.</h1><p class="main__subtitle">Start your mornings with the worlds best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
                     <a class="main__link" href="#">Create your plan</a>
                 </main>
             </div>
     </header>
-    <!-- <section>
+    <section class="cards">
         <div class="container">
-            <div class="coffee-card card">
-                <img src="/img/cofeee-1.png" alt="">
-                <h3 class="card__title">Gran Espresso</h3><p class="card__subtitle">Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+            <div class="coffee-wrapper">
+                <div class="coffee-card">
+                    <img src="/img/cofeee-1.png" alt="">
+                    <h3 class="card__title">Gran Espresso</h3><p class="card__subtitle">Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+                </div>
+                <div class="coffee-card">
+                    <img src="/img/coffee-2.png" alt="">
+                    <h3 class="card__title">Planalto</h3><p class="card__subtitle">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+                </div>
+                <div class="coffee-card">
+                    <img src="/img/coffee-3.png" alt="">
+                    <h3 class="card__title">Piccollo</h3><p class="card__subtitle">Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
+                </div>
+                <div class="coffee-card">
+                    <img src="/img/coffee-4.png" alt="">
+                    <h3 class="card__title">Gran Espresso</h3><p class="card__subtitle">Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+                </div>
             </div>
         </div>
-    </section> -->
+    </section>
+    <section class="about container">
+        <main class="about-text">
+            <h1 class="about__title">Why choose us?</h1><p class="about__subtitle">A large part of our role is choosing which particular coffees will be featured 
+                in our range. This means working closely with the best coffee growers to give 
+                you a more impactful experience on every level.</p>
+            </main>
+            <div class="coffee-wrapper">
+                <div class="coffee-card card">
+                    <img src="/img/coffee-bean.png" alt="">
+                    <h3 class="card__title">Best quality</h3><p class="card__subtitle">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+                <div class="coffee-card card">
+                    <img src="/img/gift.png" alt="">
+                    <h3 class="card__title">Exclusive benefits</h3><p class="card__subtitle">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                </div>
+                <div class="coffee-card card">
+                    <img src="/img/shipping.png" alt="">
+                    <h3 class="card__title">Free shipping</h3><p class="card__subtitle">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                </div>
+            </div>
+    </section>
+    <article class="pre-footer container">
+        <h3 class="pre-footer__title">How it works</h3>
+        <div class="circles">
+            <span class="line"></span>
+            <div class="circle1 circle"></div>
+        <div class="circle2 circle"></div>
+        <div class="circle3 circle"></div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="coffee-card footer-card">
+                <h1 class="works-title">01</h1>
+                <h3 class="card__title footer-card-title">Pick your
+                    coffee</h3><p class="card__subtitle">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </div>
+            <div class="coffee-card footer-card">
+                <h1 class="works-title">02</h1>
+                <h3 class="card__title footer-card-title">Choose the frequency</h3><p class="card__subtitle">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal..</p>
+            </div>
+            <div class="coffee-card footer-card">
+                <h1 class="works-title">03</h1>
+                <h3 class="card__title footer-card-title">Receive and enjoy!</h3><p class="card__subtitle">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+            </div>
+        </div><a class="main__link footer__link" href="#">Create your plan</a>
+    </article>
+    <footer class="container">
+        <a href="#"><img class="footer-logo" src="/img/coffee-logo2.png"width="300" alt=""></a>
+        <div class="footer__links">
+            <a href="#" class="links__link">HOME</a>
+            <a href="#" class="links__link">ABOUT US</a>
+            <a href="#" class="links__link">CREATE YOUR PLAN</a>
+        </div>
+        <div class="icons">
+            <a href="#">
+                <i class="fa-brands fa-facebook-square fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
